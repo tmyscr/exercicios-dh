@@ -22,6 +22,7 @@ public class Bolo extends Lanche {
 		
 	}
 	
+	@Override
 	public List<String> prepararLanche(int indice) {
 		super.setPreco(5);
 		return super.getPreparo().escolherItens(indice, this.sabores);
@@ -48,8 +49,18 @@ public class Bolo extends Lanche {
 	public void setCobertura(String cobertura) {
 		this.cobertura = cobertura;
 	}
-	
-	
+
+	public String getMassa() {
+		return massa;
+	}
+
+	public String getRecheio() {
+		return recheio;
+	}
+
+	public String getCobertura() {
+		return cobertura;
+	}
 	
 	
 }

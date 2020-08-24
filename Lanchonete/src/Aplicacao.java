@@ -188,12 +188,12 @@ public class Aplicacao {
 	static boolean menuBolos(Lanche lanche, int opcaoSubMenu) {
 
 		String[] parteBolo = { "MASSA", "RECHEIO", "COBERTURA" };
+		Bolo b = (Bolo) lanche;
 
 		System.out.println("||-----BOLOS-----||");
 		for (int i = 0; i < 3; i++) {
 			System.out.println("Escolha o sabor do(a) " + parteBolo[i] + " do bolo: " + System.lineSeparator());
 			if (i == 0) {
-				Bolo b = (Bolo) lanche;
 				String[] subMenuMassaBolo = b.getListaItens();
 				System.out.println("[" + (i + 1) + "]" + subMenuMassaBolo[0]);
 				System.out.println("[" + (i + 2) + "]" + subMenuMassaBolo[1]);
@@ -214,6 +214,12 @@ public class Aplicacao {
 			}
 			
 		}
+		
+		String[] itensAdicionados = lanche.getPreparo().getItensEscolhidos().toArray(new String[0]);
+		
+		b.setMassa(itensAdicionados[0]);
+		b.setRecheio(itensAdicionados[1]);
+		b.setCobertura(itensAdicionados[2]);
 
 		return true;
 	}

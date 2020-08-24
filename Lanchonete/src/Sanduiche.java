@@ -18,10 +18,7 @@ public class Sanduiche extends Lanche {
 		ingredientes[9] = "Picles";
 	}
 	
-	public String[] getIngredientes() {
-		return ingredientes;
-	}
-	
+	@Override
 	public List<String> prepararLanche(int indice) {
 		super.setPreco(1.5);
 		return super.getPreparo().escolherItens(indice, this.ingredientes);
