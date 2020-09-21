@@ -1,6 +1,9 @@
-package pedido;
+package controller;
 
 import java.time.LocalDate;
+
+import model.Pedido;
+import view.PedidoView;
 
 public class PedidoController {
 	private Pedido model;

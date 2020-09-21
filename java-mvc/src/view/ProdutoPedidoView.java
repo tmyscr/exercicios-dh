@@ -1,4 +1,4 @@
-package produtopedido;
+package view;
 
 public class ProdutoPedidoView {
 	

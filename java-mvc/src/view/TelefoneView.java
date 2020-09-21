@@ -1,4 +1,4 @@
-package telefone;
+package view;
 
 public class TelefoneView {
 	

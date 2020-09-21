@@ -1,4 +1,7 @@
-package produtopedido;
+package controller;
+
+import model.ProdutoPedido;
+import view.ProdutoPedidoView;
 
 public class ProdutoPedidoController {
 	

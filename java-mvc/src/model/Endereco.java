@@ -1,4 +1,4 @@
-package endereco;
+package model;
 
 public class Endereco {
 	private int numero;

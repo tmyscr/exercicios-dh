@@ -1,6 +1,9 @@
-package cliente;
+package controller;
 
 import java.time.LocalDate;
+
+import model.Cliente;
+import view.ClienteView;
 
 public class ClienteController {
 	private Cliente model;

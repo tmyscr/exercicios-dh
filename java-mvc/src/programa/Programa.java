@@ -2,24 +2,24 @@ package programa;
 
 import java.time.LocalDate;
 
-import cliente.Cliente;
-import cliente.ClienteController;
-import cliente.ClienteView;
-import endereco.Endereco;
-import endereco.EnderecoController;
-import endereco.EnderecoView;
-import pedido.Pedido;
-import pedido.PedidoController;
-import pedido.PedidoView;
-import produto.Produto;
-import produto.ProdutoController;
-import produto.ProdutoView;
-import produtopedido.ProdutoPedido;
-import produtopedido.ProdutoPedidoController;
-import produtopedido.ProdutoPedidoView;
-import telefone.Telefone;
-import telefone.TelefoneController;
-import telefone.TelefoneView;
+import controller.ClienteController;
+import controller.EnderecoController;
+import controller.PedidoController;
+import controller.ProdutoController;
+import controller.ProdutoPedidoController;
+import controller.TelefoneController;
+import model.Cliente;
+import model.Endereco;
+import model.Pedido;
+import model.Produto;
+import model.ProdutoPedido;
+import model.Telefone;
+import view.ClienteView;
+import view.EnderecoView;
+import view.PedidoView;
+import view.ProdutoPedidoView;
+import view.ProdutoView;
+import view.TelefoneView;
 
 public class Programa {
 	

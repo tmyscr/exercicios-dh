@@ -1,4 +1,7 @@
-package telefone;
+package controller;
+
+import model.Telefone;
+import view.TelefoneView;
 
 public class TelefoneController {
 	

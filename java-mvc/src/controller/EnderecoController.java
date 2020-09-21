@@ -1,4 +1,7 @@
-package endereco;
+package controller;
+
+import model.Endereco;
+import view.EnderecoView;
 
 public class EnderecoController {
 	private Endereco model;

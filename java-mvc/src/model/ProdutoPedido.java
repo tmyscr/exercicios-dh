@@ -1,4 +1,4 @@
-package produtopedido;
+package model;
 
 public class ProdutoPedido {
 	

@@ -1,4 +1,4 @@
-package pedido;
+package model;
 
 import java.time.LocalDate;
 

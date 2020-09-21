@@ -1,4 +1,4 @@
-package endereco;
+package view;
 
 public class EnderecoView {
 	
